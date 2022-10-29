@@ -1,0 +1,13 @@
+#key = value
+#app.base.url=/app/home/services-url
+app:
+  base:
+    url: /app-yml/home/services-url
+
+  #bar.url.client=/app-bar/client/home
+  #bar.url.customer=/app-bar/customer/home
+
+bar:
+  url:
+    client: /app-bar/client/home
+    customer: /app-bar/customer/home

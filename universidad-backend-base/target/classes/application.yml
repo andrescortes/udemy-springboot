@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test_university
+    username: postgres
+    password: 1003
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          lob:
+            non_contextual_creation: true
+        show_sql: true
+
+server:
+  servlet:
+    context-path: /api/v2/university
+  error:
+    include-message: always
+app:
+  controller:
+    enable-dto: true

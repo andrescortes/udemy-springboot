@@ -1,0 +1,20 @@
+server:
+  application:
+    name: read yaml file
+    url: http://readyml.demo
+    description: injection from yaml file with spring boot
+  configuration:
+    ips:
+      - 10.80.10.190
+      - 10.80.10.150
+      - 10.80.10.110
+    files-system:
+      - c:/data
+      - c:/data/bin
+  users:
+    root:
+      username: root
+      password: root
+    guest:
+      username: guest
+      password: guest
